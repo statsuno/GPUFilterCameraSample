@@ -13,7 +13,6 @@
 		CA5CAB3E18F831F70008D1DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA5CAB3C18F831F70008D1DE /* InfoPlist.strings */; };
 		CA5CAB4018F831F70008D1DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB3F18F831F70008D1DE /* main.m */; };
 		CA5CAB4418F831F70008D1DE /* PhotoexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB4318F831F70008D1DE /* PhotoexAppDelegate.m */; };
-		CA5CAB4718F831F70008D1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5CAB4518F831F70008D1DE /* Main.storyboard */; };
 		CA5CAB4A18F831F70008D1DE /* PhotoexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB4918F831F70008D1DE /* PhotoexViewController.m */; };
 		CA5CAB4C18F831F70008D1DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5CAB4B18F831F70008D1DE /* Images.xcassets */; };
 		CA5CAB5318F831F70008D1DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB5218F831F70008D1DE /* XCTest.framework */; };
@@ -21,6 +20,16 @@
 		CA5CAB5518F831F70008D1DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB3718F831F70008D1DE /* UIKit.framework */; };
 		CA5CAB5D18F831F70008D1DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA5CAB5B18F831F70008D1DE /* InfoPlist.strings */; };
 		CA5CAB5F18F831F70008D1DE /* GPUFilterCameraSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB5E18F831F70008D1DE /* GPUFilterCameraSampleTests.m */; };
+		CA5CAB6B18F833290008D1DE /* FilterchoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB6818F833290008D1DE /* FilterchoiceView.m */; };
+		CA5CAB6C18F833290008D1DE /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB6A18F833290008D1DE /* PictureViewController.m */; };
+		CA5CAB7018F833340008D1DE /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CAB6E18F833340008D1DE /* CameraViewController.m */; };
+		CA5CAB7318F834190008D1DE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB7218F834190008D1DE /* CoreVideo.framework */; };
+		CA5CAB7518F8346F0008D1DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB7418F8346F0008D1DE /* QuartzCore.framework */; };
+		CA5CAB7718F8347A0008D1DE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB7618F8347A0008D1DE /* CoreMedia.framework */; };
+		CA5CAB7918F834840008D1DE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB7818F834840008D1DE /* AssetsLibrary.framework */; };
+		CA5CAB7B18F8348B0008D1DE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB7A18F8348B0008D1DE /* AVFoundation.framework */; };
+		CA5CAB7D18F834920008D1DE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB7C18F834920008D1DE /* OpenGLES.framework */; };
+		CA5CAB8818F834BF0008D1DE /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CAB8518F834B80008D1DE /* libGPUImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +39,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = CA5CAB2F18F831F70008D1DE;
 			remoteInfo = GPUFilterCameraSample;
+		};
+		CA5CAB8418F834B80008D1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5CAB7E18F834B70008D1DE /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		CA5CAB8618F834B80008D1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5CAB7E18F834B70008D1DE /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,7 +67,6 @@
 		CA5CAB4118F831F70008D1DE /* GPUFilterCameraSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPUFilterCameraSample-Prefix.pch"; sourceTree = "<group>"; };
 		CA5CAB4218F831F70008D1DE /* PhotoexAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoexAppDelegate.h; sourceTree = "<group>"; };
 		CA5CAB4318F831F70008D1DE /* PhotoexAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoexAppDelegate.m; sourceTree = "<group>"; };
-		CA5CAB4618F831F70008D1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5CAB4818F831F70008D1DE /* PhotoexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoexViewController.h; sourceTree = "<group>"; };
 		CA5CAB4918F831F70008D1DE /* PhotoexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoexViewController.m; sourceTree = "<group>"; };
 		CA5CAB4B18F831F70008D1DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +75,19 @@
 		CA5CAB5A18F831F70008D1DE /* GPUFilterCameraSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUFilterCameraSampleTests-Info.plist"; sourceTree = "<group>"; };
 		CA5CAB5C18F831F70008D1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA5CAB5E18F831F70008D1DE /* GPUFilterCameraSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUFilterCameraSampleTests.m; sourceTree = "<group>"; };
+		CA5CAB6818F833290008D1DE /* FilterchoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterchoiceView.m; sourceTree = "<group>"; };
+		CA5CAB6918F833290008D1DE /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		CA5CAB6A18F833290008D1DE /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		CA5CAB6D18F833340008D1DE /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		CA5CAB6E18F833340008D1DE /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		CA5CAB6F18F833340008D1DE /* FilterchoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterchoiceView.h; sourceTree = "<group>"; };
+		CA5CAB7218F834190008D1DE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CA5CAB7418F8346F0008D1DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA5CAB7618F8347A0008D1DE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CA5CAB7818F834840008D1DE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CA5CAB7A18F8348B0008D1DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CA5CAB7C18F834920008D1DE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CA5CAB7E18F834B70008D1DE /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5CAB8818F834BF0008D1DE /* libGPUImage.a in Frameworks */,
+				CA5CAB7D18F834920008D1DE /* OpenGLES.framework in Frameworks */,
+				CA5CAB7B18F8348B0008D1DE /* AVFoundation.framework in Frameworks */,
+				CA5CAB7918F834840008D1DE /* AssetsLibrary.framework in Frameworks */,
+				CA5CAB7718F8347A0008D1DE /* CoreMedia.framework in Frameworks */,
+				CA5CAB7518F8346F0008D1DE /* QuartzCore.framework in Frameworks */,
+				CA5CAB7318F834190008D1DE /* CoreVideo.framework in Frameworks */,
 				CA5CAB3618F831F70008D1DE /* CoreGraphics.framework in Frameworks */,
 				CA5CAB3818F831F70008D1DE /* UIKit.framework in Frameworks */,
 				CA5CAB3418F831F70008D1DE /* Foundation.framework in Frameworks */,
@@ -101,6 +143,13 @@
 		CA5CAB3218F831F70008D1DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA5CAB7E18F834B70008D1DE /* GPUImage.xcodeproj */,
+				CA5CAB7C18F834920008D1DE /* OpenGLES.framework */,
+				CA5CAB7A18F8348B0008D1DE /* AVFoundation.framework */,
+				CA5CAB7818F834840008D1DE /* AssetsLibrary.framework */,
+				CA5CAB7618F8347A0008D1DE /* CoreMedia.framework */,
+				CA5CAB7418F8346F0008D1DE /* QuartzCore.framework */,
+				CA5CAB7218F834190008D1DE /* CoreVideo.framework */,
 				CA5CAB3318F831F70008D1DE /* Foundation.framework */,
 				CA5CAB3518F831F70008D1DE /* CoreGraphics.framework */,
 				CA5CAB3718F831F70008D1DE /* UIKit.framework */,
@@ -114,9 +163,14 @@
 			children = (
 				CA5CAB4218F831F70008D1DE /* PhotoexAppDelegate.h */,
 				CA5CAB4318F831F70008D1DE /* PhotoexAppDelegate.m */,
-				CA5CAB4518F831F70008D1DE /* Main.storyboard */,
 				CA5CAB4818F831F70008D1DE /* PhotoexViewController.h */,
 				CA5CAB4918F831F70008D1DE /* PhotoexViewController.m */,
+				CA5CAB6D18F833340008D1DE /* CameraViewController.h */,
+				CA5CAB6E18F833340008D1DE /* CameraViewController.m */,
+				CA5CAB6918F833290008D1DE /* PictureViewController.h */,
+				CA5CAB6A18F833290008D1DE /* PictureViewController.m */,
+				CA5CAB6F18F833340008D1DE /* FilterchoiceView.h */,
+				CA5CAB6818F833290008D1DE /* FilterchoiceView.m */,
 				CA5CAB4B18F831F70008D1DE /* Images.xcassets */,
 				CA5CAB3A18F831F70008D1DE /* Supporting Files */,
 			);
@@ -150,6 +204,15 @@
 				CA5CAB5B18F831F70008D1DE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA5CAB7F18F834B70008D1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5CAB8518F834B80008D1DE /* libGPUImage.a */,
+				CA5CAB8718F834B80008D1DE /* GPUImageTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +279,12 @@
 			mainGroup = CA5CAB2718F831F70008D1DE;
 			productRefGroup = CA5CAB3118F831F70008D1DE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA5CAB7F18F834B70008D1DE /* Products */;
+					ProjectRef = CA5CAB7E18F834B70008D1DE /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CA5CAB2F18F831F70008D1DE /* GPUFilterCameraSample */,
@@ -224,6 +293,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CA5CAB8518F834B80008D1DE /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = CA5CAB8418F834B80008D1DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA5CAB8718F834B80008D1DE /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = CA5CAB8618F834B80008D1DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CA5CAB2E18F831F70008D1DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -231,7 +317,6 @@
 			files = (
 				CA5CAB4C18F831F70008D1DE /* Images.xcassets in Resources */,
 				CA5CAB3E18F831F70008D1DE /* InfoPlist.strings in Resources */,
-				CA5CAB4718F831F70008D1DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +336,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5CAB4A18F831F70008D1DE /* PhotoexViewController.m in Sources */,
+				CA5CAB6C18F833290008D1DE /* PictureViewController.m in Sources */,
+				CA5CAB6B18F833290008D1DE /* FilterchoiceView.m in Sources */,
+				CA5CAB7018F833340008D1DE /* CameraViewController.m in Sources */,
 				CA5CAB4418F831F70008D1DE /* PhotoexAppDelegate.m in Sources */,
 				CA5CAB4018F831F70008D1DE /* main.m in Sources */,
 			);
@@ -281,14 +369,6 @@
 				CA5CAB3D18F831F70008D1DE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CA5CAB4518F831F70008D1DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA5CAB4618F831F70008D1DE /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		CA5CAB5B18F831F70008D1DE /* InfoPlist.strings */ = {
@@ -379,6 +459,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUFilterCameraSample/GPUFilterCameraSample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"framework/**",
+				);
 				INFOPLIST_FILE = "GPUFilterCameraSample/GPUFilterCameraSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -392,6 +477,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUFilterCameraSample/GPUFilterCameraSample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"framework/**",
+				);
 				INFOPLIST_FILE = "GPUFilterCameraSample/GPUFilterCameraSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -457,6 +547,7 @@
 				CA5CAB6418F831F70008D1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5CAB6518F831F70008D1DE /* Build configuration list for PBXNativeTarget "GPUFilterCameraSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +556,7 @@
 				CA5CAB6718F831F70008D1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

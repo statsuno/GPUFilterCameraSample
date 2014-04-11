@@ -11,6 +11,9 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PhotoexAppDelegate.h"
 #endif
+
+#define app (PhotoexAppDelegate *)[[UIApplication sharedApplication] delegate]
